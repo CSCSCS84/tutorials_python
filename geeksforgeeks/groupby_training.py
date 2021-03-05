@@ -4,6 +4,7 @@ df = pd.read_csv("data/nba.csv")
 print(df.head())
 print(df.info())
 df.dropna(inplace=True)
+# just some changes
 
 perc = [0.20, 0.4, 0.8]
 print(df.describe(percentiles=perc))
