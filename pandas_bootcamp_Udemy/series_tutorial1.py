@@ -4,6 +4,10 @@ import pandas as pd
 pd.options.display.min_rows = 50
 
 s = pd.Series(data=[1, 2, 4], index=["{}".format(i) for i in range(3)])
+print(s.count())
+print(s.index)
+print(s.hasnans)
+print(s.isna())
 
 print(s.get(["1", "2"]))
 
