@@ -1,5 +1,8 @@
+# Skill Challenges for Udemy course: The Ultimate Pandas Bootcamp: Advanced Python Data Analysis
+# Not cleaned
 import pandas as pd
 import numpy as np
+
 
 scores = pd.read_csv("data//scores.csv")
 s=scores.unstack()
@@ -12,7 +15,6 @@ print(pivoted.columns)
 print(pivoted.index)
 print(pivoted.info())
 print(pivoted.stack())
-#print(pivoted.melt())
 
 piv=scores.pivot_table(index="Borough",values="Student Enrollment",aggfunc=["sum","mean"])
 print(piv.head())

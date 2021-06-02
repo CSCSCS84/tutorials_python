@@ -1,4 +1,5 @@
 # Skill Challenges for Udemy course: The Ultimate Pandas Bootcamp: Advanced Python Data Analysis
+# Not cleaned
 import pandas as pd
 
 tech_giants = pd.read_csv("data//tech_giants.csv", index_col=["date", "name"])

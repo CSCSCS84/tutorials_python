@@ -1,3 +1,5 @@
+# Skill Challenges for Udemy course: The Ultimate Pandas Bootcamp: Advanced Python Data Analysis
+# Not cleaned
 import pandas as pd
 import numpy as np
 
